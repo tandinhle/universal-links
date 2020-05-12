@@ -6,7 +6,7 @@
         {
           "appIDs": ["2YK722XZ89.com.2ndmdlive.com"],
           "components": [{
-            "/": "/*",
+            "/": "*",
             "comment": "Matches any URL whose path starts with"
           }]
         }, 
