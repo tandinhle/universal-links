@@ -1,11 +1,19 @@
 {
-	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appID": "2YK722XZ89.com.2ndmdlive.com",
-				"paths": [ "*"]
-			}
-		]
-	}
+  "applinks": {
+    "apps": [],
+    "details": 
+    [
+        {
+          "appIDs": ["2YK722XZ89.com.2ndmdlive.com"],
+          "components": [{
+            "/": "/*",
+            "comment": "Matches any URL whose path starts with"
+          }]
+        }, 
+        {
+            "appID": "2YK722XZ89.com.2ndmdlive.com",
+            "paths": ["*"]
+        }
+    ]
+  }
 }
